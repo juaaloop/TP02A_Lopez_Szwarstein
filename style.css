@@ -1,0 +1,120 @@
+* {
+    border: 1px solid black;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Index */
+
+header {
+    display: flex;
+    padding: 2%;
+}
+
+main .comentarios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15% 3%;
+}
+
+main .comentarios div {
+    width: 60%;
+    justify-self: center;
+}
+
+main .funcionalidades {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+/* Catálogo */
+
+/*#442827
+#E9E7DA
+#D2C5B2
+#927D14 */
+
+
+
+main .contenedor-catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    justify-self: center;
+}
+
+main .contenedor-catalogo div {
+    width: 60%;
+    justify-self: center;
+    margin-bottom: 5%;
+}
+
+main .contenedor-catalogo div img {
+    width: 90%;
+    padding: 4%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+main .contenedor-catalogo div img:first-child {
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.contenedor-catalogo div img:first-child {
+    display: none;
+    border-radius: 50%;
+}
+
+.contenedor-catalogo div img:last-child {
+    position: absolute;
+}
+
+.contenedor-catalogo div:hover img {
+    display: none;
+    transition: all 0.8 ease;
+
+}
+
+.contenedor-catalogo div:hover img:first-child {
+    display: block;
+}
+
+/* Registrarse */
+
+main .registrarse div {
+    justify-self: center;
+    width: 25%;
+    padding: 2%;
+    margin-bottom: 1.5%;
+    margin-top: 4%;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+main section div form {
+    margin-top: 5%;
+    width: 90%;
+    clear: both;
+    border: none;
+}
+
+main section div form input,
+main section div form input[type="text"] {
+    margin-left: 18.5%;
+    width: 60%;
+    border-radius: 5px;
+    clear: both;
+    padding: 3%;
+    margin-bottom: 2.5%;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #aaa;
+}
