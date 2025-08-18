@@ -1,4 +1,5 @@
 * {
+    border: 1px solid black;
     padding: 0%;
     margin: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -183,12 +184,13 @@ main .catalogo div {
     padding: 4%;
     background-color: #E9E7DA;
     border-radius: 8px;
+    position: relative;
+    padding-bottom: 20%;
 }
 
 main .catalogo div img {
     width: 100%;
     border-radius: 50%;
-
     text-align: center;
 }
 
@@ -198,6 +200,8 @@ main .catalogo div:hover img {
 }
 
 .catalogo div a {
+    bottom: 5%;
+    position: absolute;
     padding: 3%;
     width: 40%;
     justify-self: center;
