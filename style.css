@@ -23,6 +23,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  overflow: hidden;
 }
 
 header a img,
@@ -127,12 +128,24 @@ main .nosotros div {
   float: left;
   color: #e9e7da;
   float: left;
-    width: 35%;
-    margin-left: 7%;
-    margin-top: 10%;
-
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 15%;
+  text-align: center;
 }
-
+main .nosotros a {
+  padding: 2%;
+  width: 30%;
+  text-align: center;
+  border: 0px solid #e9e7da;
+  border-radius: 20px;
+  background-color: #e9e7da;
+  margin-top: 2%;
+  justify-self: center;
+  display: block;
+  color: #442827;
+  text-decoration: none;
+}
 main .comentarios {
   display: inline-block;
   width: 100%;
@@ -141,21 +154,21 @@ main .comentarios {
   justify-content: center;
 }
 main .comentarios div {
-    justify-self: center;
-    display: grid;
-    width: 70%;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15% 3%;
-  }
-  
-  main .comentarios div div {
-      display: inline-block;
-    width: 75%;
-    justify-self: center;
-    padding: 2%;
-    border-radius: 10px;
-    background-color: #d2c5b2;
-  }
+  justify-self: center;
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15% 3%;
+}
+
+main .comentarios div div {
+  display: inline-block;
+  width: 75%;
+  justify-self: center;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #d2c5b2;
+}
 
 main .funcionalidades {
   display: flex;
