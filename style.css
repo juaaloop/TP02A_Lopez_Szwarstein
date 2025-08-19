@@ -133,6 +133,7 @@ main .nosotros div {
   margin-top: 15%;
   text-align: center;
 }
+
 main .nosotros a {
   padding: 2%;
   width: 30%;
@@ -146,6 +147,7 @@ main .nosotros a {
   color: #442827;
   text-decoration: none;
 }
+
 main .comentarios {
   display: inline-block;
   width: 100%;
@@ -153,6 +155,7 @@ main .comentarios {
   padding-bottom: 5%;
   justify-content: center;
 }
+
 main .comentarios div {
   justify-self: center;
   display: grid;
@@ -183,6 +186,7 @@ main .funcionalidades div {
 
 /* Catálogo */
 
+
 main .catalogo {
   padding: 12.5%;
   padding-top: 0%;
@@ -192,6 +196,7 @@ main .catalogo {
   grid-template-columns: 1fr 1fr 1fr;
   width: 75%;
   justify-self: center;
+  position: relative;
 }
 
 main select {
@@ -201,6 +206,21 @@ main select {
   border-radius: 7px;
   margin: 0%;
   margin-left: 90%;
+}
+
+main .catalogo a {
+  bottom: 5%;
+  position: absolute;
+  padding: 1%;
+  width: 12%;
+  text-align: center;
+  border: 0px solid #e9e7da;
+  border-radius: 20px;
+  background-color: #442827;
+  margin-top: 2%;
+  justify-self: center;
+  color: #e9e7da;
+  text-decoration: none;
 }
 
 main .catalogo div {
@@ -241,18 +261,21 @@ main .catalogo div:hover img {
   font-weight: normal;
   margin-top: 5%;
 }
-
-.catalogo h4 {
+.catalogo p{
+  text-align: justify;
+}
+.catalogo h5 {
   font-size: 16px;
-  color: #493837;
+  color: #464646;
 }
 
-.calaogo div h3 {
-  font-weight: normal;
+.calaogo div h4 {
+  font-weight:lighter;
 }
 
-.catalogo div h3:nth-child(2) {
-  color: #442827;
+.catalogo div h3 {
+  margin-top: 5%;
+  color: #351a19;
   font-weight: bold;
 }
 
