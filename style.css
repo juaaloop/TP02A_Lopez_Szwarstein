@@ -89,7 +89,7 @@ main .index-section a {
   border-radius: 20px;
   background-color: #442827;
   margin-top: 2%;
-  margin-left: 32.5%;
+  justify-self: center;
   display: block;
   color: #e9e7da;
   text-decoration: none;
@@ -157,7 +157,6 @@ main .nosotros a {
   color: #442827;
   text-decoration: none;
   position: absolute;
-  margin-left: 32.5%;
 }
 main .nosotros a:hover{
   background-color: #442827;
@@ -264,7 +263,7 @@ main .catalogo div img {
   text-align: center;
 }
 
-main .catalogo div:hover img {
+main .catalogo img:hover  {
   border-radius: 0%;
   transition: all 0.3s ease;
 }
@@ -272,7 +271,6 @@ main .catalogo div:hover img {
 .catalogo div a {
   bottom: 5%;
   position: absolute;
-  margin-left: 22%;
   padding: 3%;
   width: 40%;
   display: block;
@@ -289,11 +287,11 @@ main .catalogo div:hover img {
 }
 .catalogo h5 {
   font-size: 16px;
-  color: #464646;
+  color: #686868;
 }
 
-.calaogo div h4 {
-  font-weight: lighter;
+.catalogo div h4 {
+  font-weight: normal;
 }
 
 .catalogo div h3 {
@@ -418,7 +416,6 @@ main .catalogo div:hover img {
   width: 75%;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15% 5%;
-  overflow: hidden;
   padding-right: 12.5%;
   padding-left: 12.5%;
   background-color: #d2c5b2;
