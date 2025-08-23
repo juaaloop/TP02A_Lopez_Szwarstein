@@ -434,6 +434,22 @@ main .catalogo img:hover  {
 .blog section div article {
   width: 100%;
 }
+
+.blog div a{
+    bottom: 4%;
+  position: absolute;
+  padding: 1%;
+  width: 10%;
+  text-align: center;
+  border: 0px solid #e9e7da;
+  border-radius: 25px;
+  background-color: #442827;
+  margin-top: 2%;
+  justify-self: center;
+  color: #e9e7da;
+  text-decoration: none;
+}
+
 /*Footer*/
 
 footer {
